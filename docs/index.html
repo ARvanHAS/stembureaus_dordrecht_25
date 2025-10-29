@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8db0b478c62f8b7cff647efc0207b9b0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+            <div class="folium-map" id="map_8db0b478c62f8b7cff647efc0207b9b0" ></div>
+</body>
+<script>
+            var map_8db0b478c62f8b7cff647efc0207b9b0 = L.map(
+                "map_8db0b478c62f8b7cff647efc0207b9b0",
+                {
+                    center: [51.81, 4.67],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            var tile_layer_b3d2afbe9939c41f4119801a44b61be7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+            );
+            tile_layer_b3d2afbe9939c41f4119801a44b61be7.addTo(map_8db0b478c62f8b7cff647efc0207b9b0);
+            var marker_0ad9511afaa06b0e0aa48c82346fe93d = L.marker(
+                [51.79198894737188, 4.682405565855776],
+                {
+}
+            ).addTo(map_8db0b478c62f8b7cff647efc0207b9b0);
+        var popup_7ae66e73bf053e147fb82045724ddbda = L.popup({
+  "maxWidth": "100%",
+});
+                var html_7b059bed6320424d5efa94b97ed73164 = $(`<div id=\"html_7b059bed6320424d5efa94b97ed73164\" style=\"width: 100.0%; height: 100.0\">Albert Schweitzerziekenhuis Dordtwijk<br>Albe[...]`)
+                popup_7ae66e73bf053e147fb82045724ddbda.setContent(html_7b059bed6320424d5efa94b97ed73164);
+        marker_0ad9511afaa06b0e0aa48c82346fe93d.bindPopup(popup_7ae66e73bf053e147fb82045724ddbda);
+            marker_0ad9511afaa06b0e0aa48c82346fe93d.bindTooltip(
+                `<div>
+                     Albert Schweitzerziekenhuis Dordtwijk
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+            var marker_3cbd37d1cbd2364bc47a9e61d5cb6c1b = L.marker(
+                [51.80480770561393, 4.657073806070964],
+                {
+}
+            ).addTo(map_8db0b478c62f8b7cff647efc0207b9b0);
+    var popup_da91fce8c2668d79c57170f10339657e = L.popup({
+  "maxWidth": "100%",
+});
+                var html_506aab7dee2b2a303f34f3ad9eaa973d = $(`<div id=\"html_506aab7dee2b2a303f34f3ad9eaa973d\" style=\"width: 100.0%; height: 100.0\">Apostolisch Genootschap<br>Van Baerlestraat 1[...]`)
+                popup_da91fce8c2668d79c57170f10339657e.setContent(html_506aab7dee2b2a303f34f3ad9eaa973d);
+        marker_3cbd37d1cbd2364bc47a9e61d5cb6c1b.bindPopup(popup_da91fce8c2668d79c57170f10339657e);
+            marker_3cbd37d1cbd2364bc47a9e61d5cb6c1b.bindTooltip(
+                `<div>
+                     Apostolisch Genootschap
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+            var marker_80e40356dc8b4e00b33c1abe368b1dae = L.marker(
+                [51.80750613113901, 4.668337978308146],
+                {
+}
+            ).addTo(map_8db0b478c62f8b7cff647efc0207b9b0);
+    var popup_631c42a81439ba51a6766382d8af1ca7 = L.popup({
+  "maxWidth": "100%",
+});
+                var html_34f139184ace418be0c65f205abf7aab = $(`<div id=\"html_34f139184ace418be0c65f205abf7aab\" style=\"width: 100.0%; height: 100.0\">Centraal Station<br>Stationsplein 1, Dordrech[...]`)
+                popup_631c42a81439ba51a6766382d8af1ca7.setContent(html_34f139184ace418be0c65f205abf7aab);
+        marker_80e40356dc8b4e00b33c1abe368b1dae.bindPopup(popup_631c42a81439ba51a6766382d8af1ca7);
+            marker_80e40356dc8b4e00b33c1abe368b1dae.bindTooltip(
+                `<div>
+                     Centraal Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+            var marker_e6b03d329b9c463bf1987c757e1a8f9a = L.marker(
+                [51.78508926330233, 4.677992372455477],
+                {
+}
+            ).addTo(map_8db0b478c62f8b7cff647efc0207b9b0);
+    var popup_d7baefcb48e6161009e177c3d9f8f56e = L.popup({
+  "maxWidth": "100%",
+});
+                var html_eb856103176e820b9f6d834da696fe93 = $(`<div id=\"html_eb856103176e820b9f6d834da696fe93\" style=\"width: 100.0%; height: 100.0\">Cultureel Centrum Sterrenburg<br>Dalmeyerplei[...]`)
+                popup_d7baefcb48e6161009e177c3d9f8f56e.setContent(html_eb856103176e820b9f6d834da696fe93);
+        marker_e6b03d329b9c463bf1987c757e1a8f9a.bindPopup(popup_d7baefcb48e6161009e177c3d9f8f56e);
+            marker_e6b03d329b9c463bf1987c757e1a8f9a.bindTooltip(
+                `<div>
+                     Cultureel Centrum Sterrenburg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+            var marker_10ab31c12245b5a2289285212a030d84 = L.marker(
+                [51.792999484325414, 4.698293749061294],
+                {
+}
+            ).addTo(map_8db0b478c62f8b7cff647efc0207b9b0);
+    var popup_fa45539a25cd9c6cb0d1ba420f769ad7 = L.popup({
+  "maxWidth": "100%",
+});
+                var html_6987b9a979fa6760fca3db10a863aedd = $(`<div id=\"html_6987b9a979fa6760fca3db10a863aedd\" style=\"width: 100.0%; height: 100.0\">De Gravenhorst<br>Vijverlaan 1002, Dordrecht[...]`)
+                popup_fa45539a25cd9c6cb0d1ba420f769ad7.setContent(html_6987b9a979fa6760fca3db10a863aedd);
+        marker_10ab31c12245b5a2289285212a030d84.bindPopup(popup_fa45539a25cd9c6cb0d1ba420f769ad7);
+            marker_10ab31c12245b5a2289285212a030d84.bindTooltip(
+                `<div>
+                     De Gravenhorst
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+            var marker_b94a5f696be19b7d118dbd1688bfb092 = L.marker(
+                [51.80426681980748, 4.669439793393548],
+                {
+}
+            ).addTo(map_8db0b478c62f8b7cff647efc0207b9b0);
+    var popup_916c3866614b19e84bd8bca1747117f6 = L.popup({
+  "maxWidth": "100%",
+});
+                var html_b08f4c630dfeecae49e37c68deb2281f = $(`<div id=\"html_b08f4c630dfeecae49e37c68deb2281f\" style=\"width: 100.0%; height: 100.0\">De Prinsemarij<br>Nassauweg 2, Dordrecht</div[...]`)
+                popup_916c3866614b19e84bd8bca1747117f6.setContent(html_b08f4c630dfeecae49e37c68deb2281f);
+        marker_b94a5f696be19b7d118dbd1688bfb092.bindPopup(popup_916c3866614b19e84bd8bca1747117f6);
+        marker_b94a5f696be19b7d118dbd1688bfb092.bindTooltip(...);
+</script>
+</html>
